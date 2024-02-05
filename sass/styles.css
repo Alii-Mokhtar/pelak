@@ -1,4 +1,5 @@
 @import url(./partials/_pelak.scss);
+@import url(./partials/_id.scss);
 @font-face {
   font-family: yekan;
   src: url(./fonts/IRANSansXFaNum-Regular.woff2);
