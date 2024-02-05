@@ -1,0 +1,53 @@
+.cart__img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+  width: 230px;
+}
+.cart__img .cart__img--input, .cart__img .cart__img--input-2, .cart__img .cart__img--input-3, .cart__img .cart__img--input-4 {
+  position: absolute;
+}
+.cart__img .cart__img--input, .cart__img .cart__img--input-2, .cart__img .cart__img--input-3 {
+  top: 4px;
+}
+.cart__img .cart__img--input-1, .cart__img .cart__img--input-num, .cart__img .cart__img--input-3-3, .cart__img .cart__img--input-4-4 {
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-family: yekan;
+}
+.cart__img .cart__img--input {
+  left: 26px;
+}
+.cart__img .cart__img--input .cart__img--input-1 {
+  width: 31px;
+  height: 35px;
+}
+.cart__img .cart__img--input-2 {
+  left: 66px;
+}
+.cart__img .cart__img--input-2 .cart__img--input-num {
+  width: 55px;
+  height: 37px;
+  background-color: white;
+  border: none;
+  text-align: end;
+  font-size: 17px;
+  font-family: yekan;
+}
+.cart__img .cart__img--input-3 {
+  left: 125px;
+}
+.cart__img .cart__img--input-3 .cart__img--input-3-3 {
+  width: 43px;
+  height: 35px;
+}
+.cart__img .cart__img--input-4 {
+  top: 12px;
+  right: 5px;
+}
+.cart__img .cart__img--input-4 .cart__img--input-4-4 {
+  width: 41px;
+  height: 27px;
+}/*# sourceMappingURL=pelak.css.map */

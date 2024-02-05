@@ -1,0 +1,61 @@
+.pelak{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    width: 230px;
+    
+    .pelak__container--left,.pelak__container--middle,.pelak__container--right,.pelak__container--end{
+        position: absolute;
+    }
+    .pelak__container--left,.pelak__container--middle,.pelak__container--right{
+        top: 4px;
+    }
+    .pelak__input--left,.pelak__input--middle,.pelak__input--right,.pelak__input--end{
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        font-family: yekan;
+        
+    }
+
+    .pelak__container--left{
+        left:26px;
+
+        .pelak__input--left{
+            width: 31px;
+            height: 35px;
+        }
+    }
+    .pelak__container--middle{
+        left: 66px;
+
+        .pelak__input--middle{
+            width: 55px; 
+            height: 37px;
+             background-color: white; 
+             border: none;
+               text-align: end;
+                font-size: 17px;
+                font-family: yekan;
+        }
+    }
+    .pelak__container--right{
+        left: 125px;
+
+        .pelak__input--right{
+        width: 43px;
+        height: 35px;            
+        }
+    }
+    .pelak__container--end{
+        top: 12px;
+        right: 5px;
+
+        .pelak__input--end{
+        width: 41px;
+        height: 27px;
+        }
+    }
+
+}
