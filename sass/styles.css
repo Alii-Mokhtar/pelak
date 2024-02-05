@@ -1,37 +1,3 @@
+@import url(./partials/_cart.scss);
 @import url(./partials/_pelak.scss);
-@import url(./partials/_id.scss);
-@font-face {
-  font-family: yekan;
-  src: url(./fonts/IRANSansXFaNum-Regular.woff2);
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  font-family: yekan;
-}
-body .cart {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-body .cart__title {
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  font-size: 2rem;
-}
-body .cart__discreption {
-  font-size: 0.8rem;
-  margin-top: 10px;
-  line-height: 25px;
-}
-body .cart__discreption-2 {
-  font-size: 0.7rem;
-  color: gray;
-}
-body .cart__link {
-  text-decoration: none;
-  color: blue;
-}/*# sourceMappingURL=styles.css.map */
+@import url(./partials/_id.scss);/*# sourceMappingURL=styles.css.map */
